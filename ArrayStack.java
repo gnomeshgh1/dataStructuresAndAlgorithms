@@ -34,5 +34,9 @@ public class ArrayStack {
         String a2 = arrayStack.pop();
         String a3 = arrayStack.pop();
         String a4 = arrayStack.pop();
+        StackBasedOnLinkedList stackBasedOnLinkedList = new StackBasedOnLinkedList();
+        stackBasedOnLinkedList.push(1);
+        stackBasedOnLinkedList.push(2);
+        int b = stackBasedOnLinkedList.pop();
     }
 }
